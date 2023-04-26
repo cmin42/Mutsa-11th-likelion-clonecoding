@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* nav bar */
+nav {
+    height: 85px;
+    background-color: black;
+    line-height: 80px;
+}
+
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-logo {
+    float: left;
+    margin: 0;
+    padding-left: 100px;
+}
+
+.nav-menu {
+    float: right;
+    padding-right: 100px;
+}
+
+.nav-btn {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.nav-btn > li {
+    float : left;
+    margin-left: 70px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-login {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    color: white;
+    height: 50px;
+    padding: 15px;
+    margin: 17px;
+    background-color: rgb(40, 40, 40);
+}
+
+.location {
+    size: 20px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+
+/* header */
+.hd {
+    position: relative;
+    height: 750px;
+    text-align: center;
+    background-color: black;
+}
+
+.hd-title {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 220px;
+    text-align: center;
+}
+
+.hd-content {
+    font-size: 24px;
+    font-weight: 550;
+    line-height: 1.9;
+    color: white;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.hd:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-image: url(./back.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hd .container {
+    position: relative;
+    color: black;
+}
