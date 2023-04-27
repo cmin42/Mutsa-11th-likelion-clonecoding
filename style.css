@@ -14,7 +14,7 @@ a:link, a:visited {
 }
 
 .container {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -35,12 +35,10 @@ nav::after {
 .nav-logo {
     float: left;
     margin: 0;
-    padding-left: 100px;
 }
 
 .nav-menu {
     float: right;
-    padding-right: 100px;
 }
 
 .nav-btn {
@@ -57,14 +55,14 @@ ul.nav-btn > li {
 }
 
 .nav-login {
-    position: relative;
     display: flex;
+    position: relative;
     align-items: center;
-    border-radius: 40px;
+    border-radius: 5rem;
     color: white;
-    height: 50px;
     padding: 15px;
     margin: 17px;
+    height: 50px;
     background-color: rgb(40, 40, 40);
 }
 
@@ -81,6 +79,10 @@ ul.nav-btn > li {
     height: 750px;
     text-align: center;
     background-color: black;
+}
+
+.hd .container {
+    width: 1200px;
 }
 
 .hd-title {
